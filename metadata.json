@@ -1,8 +1,16 @@
 {
   "name": "ProgressBarWidget",
   "id": "com.custom.progressbar",
-  "type": "component",
-  "description": "A simple progress bar widget for SAC",
+  "version": "1.0.0",
+  "newInstancePrefix": "ProgressBar_",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "progress-bar-widget",
+      "url": "https://pmuraz.github.io/wit/progressBar.js",
+      "integrity": "sha256-0CF2E020C7C07B3D4EDA9ABB720815720C96DE785302B3BB55D2903F1F8265F1"
+    }
+  ],
   "properties": {
     "progressValue": {
       "type": "number",
@@ -14,9 +22,5 @@
     }
   },
   "methods": {},
-  "events": {},
-  "dependencies": {
-    "js": ["progressBar.js"],
-    "css": ["progressBar.css"]
-  }
+  "events": {}
 }
