@@ -1,0 +1,22 @@
+{
+  "name": "ProgressBarWidget",
+  "id": "com.custom.progressbar",
+  "type": "component",
+  "description": "A simple progress bar widget for SAC",
+  "properties": {
+    "progressValue": {
+      "type": "number",
+      "default": 50
+    },
+    "color": {
+      "type": "string",
+      "default": "#4caf50"
+    }
+  },
+  "methods": {},
+  "events": {},
+  "dependencies": {
+    "js": ["progressBar.js"],
+    "css": ["progressBar.css"]
+  }
+}
